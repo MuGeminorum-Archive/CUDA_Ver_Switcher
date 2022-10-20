@@ -1,0 +1,4 @@
+CUDA_Ver_Switcher/bin/*
+CUDA_Ver_Switcher/obj/*
+CUDA_Ver_Switcher/Properties/*
+.vs/*
