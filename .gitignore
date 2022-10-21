@@ -1,3 +1,4 @@
 CUDA_Ver_Switcher/bin/*
 CUDA_Ver_Switcher/obj/*
 .vs/*
+rename.sh
