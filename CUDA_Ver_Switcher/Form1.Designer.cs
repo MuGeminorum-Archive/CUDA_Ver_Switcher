@@ -44,9 +44,10 @@
             this.switch_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.switch_btn.Enabled = false;
             this.switch_btn.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.switch_btn.Location = new System.Drawing.Point(3, 157);
+            this.switch_btn.Location = new System.Drawing.Point(4, 196);
+            this.switch_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.switch_btn.Name = "switch_btn";
-            this.switch_btn.Size = new System.Drawing.Size(136, 71);
+            this.switch_btn.Size = new System.Drawing.Size(181, 89);
             this.switch_btn.TabIndex = 0;
             this.switch_btn.Text = "Switch";
             this.switch_btn.UseVisualStyleBackColor = true;
@@ -57,9 +58,10 @@
             this.ver_option_combox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.ver_option_combox.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ver_option_combox.FormattingEnabled = true;
-            this.ver_option_combox.Location = new System.Drawing.Point(145, 103);
+            this.ver_option_combox.Location = new System.Drawing.Point(193, 130);
+            this.ver_option_combox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ver_option_combox.Name = "ver_option_combox";
-            this.ver_option_combox.Size = new System.Drawing.Size(136, 25);
+            this.ver_option_combox.Size = new System.Drawing.Size(182, 28);
             this.ver_option_combox.TabIndex = 1;
             this.ver_option_combox.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -68,9 +70,10 @@
             this.curr_ver_label.AutoSize = true;
             this.curr_ver_label.Dock = System.Windows.Forms.DockStyle.Fill;
             this.curr_ver_label.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.curr_ver_label.Location = new System.Drawing.Point(3, 0);
+            this.curr_ver_label.Location = new System.Drawing.Point(4, 0);
+            this.curr_ver_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.curr_ver_label.Name = "curr_ver_label";
-            this.curr_ver_label.Size = new System.Drawing.Size(136, 77);
+            this.curr_ver_label.Size = new System.Drawing.Size(181, 96);
             this.curr_ver_label.TabIndex = 2;
             this.curr_ver_label.Text = "Current Version";
             this.curr_ver_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -80,9 +83,10 @@
             this.curr_verval_label.AutoSize = true;
             this.curr_verval_label.Dock = System.Windows.Forms.DockStyle.Fill;
             this.curr_verval_label.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.curr_verval_label.Location = new System.Drawing.Point(145, 0);
+            this.curr_verval_label.Location = new System.Drawing.Point(193, 0);
+            this.curr_verval_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.curr_verval_label.Name = "curr_verval_label";
-            this.curr_verval_label.Size = new System.Drawing.Size(136, 77);
+            this.curr_verval_label.Size = new System.Drawing.Size(182, 96);
             this.curr_verval_label.TabIndex = 2;
             this.curr_verval_label.Text = "--";
             this.curr_verval_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -91,11 +95,12 @@
             // 
             this.cmd_textbox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cmd_textbox.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.cmd_textbox.Location = new System.Drawing.Point(145, 157);
+            this.cmd_textbox.Location = new System.Drawing.Point(193, 196);
+            this.cmd_textbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmd_textbox.Multiline = true;
             this.cmd_textbox.Name = "cmd_textbox";
             this.cmd_textbox.ReadOnly = true;
-            this.cmd_textbox.Size = new System.Drawing.Size(136, 71);
+            this.cmd_textbox.Size = new System.Drawing.Size(182, 89);
             this.cmd_textbox.TabIndex = 3;
             // 
             // ver_option_label
@@ -103,11 +108,12 @@
             this.ver_option_label.AutoSize = true;
             this.ver_option_label.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ver_option_label.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.ver_option_label.Location = new System.Drawing.Point(3, 77);
+            this.ver_option_label.Location = new System.Drawing.Point(4, 96);
+            this.ver_option_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ver_option_label.Name = "ver_option_label";
-            this.ver_option_label.Size = new System.Drawing.Size(136, 77);
+            this.ver_option_label.Size = new System.Drawing.Size(181, 96);
             this.ver_option_label.TabIndex = 2;
-            this.ver_option_label.Text = "Version Options";
+            this.ver_option_label.Text = "PATH Option";
             this.ver_option_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel1
@@ -124,22 +130,24 @@
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(284, 231);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(379, 289);
             this.tableLayoutPanel1.TabIndex = 4;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 231);
+            this.ClientSize = new System.Drawing.Size(379, 289);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CUDA Version Switcher";
