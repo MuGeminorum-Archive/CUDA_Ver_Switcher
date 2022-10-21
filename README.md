@@ -1,6 +1,6 @@
 # CUDA_Ver_Switcher
 
-[![license](https://img.shields.io/github/license/george-chou/CUDA_Ver_Switcher.svg)](https://github.com/george-chou/CUDA_Ver_Switcher/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/george-chou/CUDA_Ver_Switcher.svg)](https://github.com/george-chou/CUDA_Ver_Switcher/blob/main/LICENSE)
 
 <img src='https://picrepo.netlify.app/CUDA_Ver_Switcher/cover.gif' width="61%"></img>
 
